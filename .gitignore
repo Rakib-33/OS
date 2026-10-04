@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+~$*.docx
+
+CSE307_Disk_Scheduling_Report.docx
+~$*.docx
+__pycache__/
+.venv/
+
