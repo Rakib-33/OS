@@ -1,0 +1,76 @@
+{
+  "seed": 3072026,
+  "batch_size": 20,
+  "cylinders": 200,
+  "initial_head": 100,
+  "initial_direction": "up",
+  "training_batches": 900,
+  "validation_batches": 300,
+  "temperature": 0.6,
+  "test": {
+    "batches": 300,
+    "accuracy_equal_winners": 0.91,
+    "mean_confidence_correct": 0.873,
+    "mean_confidence_wrong": 0.7855,
+    "expected_calibration_error_5_bins": 0.0449,
+    "seek_totals": {
+      "FCFS": 203924,
+      "SCAN": 71913,
+      "C-SCAN": 100140,
+      "SSTF": 45834,
+      "selector": 46734,
+      "oracle": 45318
+    },
+    "winner_label_counts": {
+      "FCFS": 85,
+      "SCAN": 41,
+      "C-SCAN": 0,
+      "SSTF": 174
+    }
+  },
+  "timeline": {
+    "batches": 60,
+    "accuracy_equal_winners": 0.95,
+    "mean_confidence_correct": 0.832,
+    "mean_confidence_wrong": 0.6792,
+    "expected_calibration_error_5_bins": 0.1256,
+    "seek_totals": {
+      "FCFS": 17493,
+      "SCAN": 12155,
+      "C-SCAN": 17761,
+      "SSTF": 4757,
+      "selector": 4814,
+      "oracle": 4661
+    },
+    "winner_label_counts": {
+      "FCFS": 21,
+      "SCAN": 9,
+      "C-SCAN": 0,
+      "SSTF": 30
+    },
+    "phases": {
+      "before": {
+        "accuracy_equal_winners": 0.9667,
+        "seek_totals": {
+          "FCFS": 2389,
+          "SCAN": 6242,
+          "C-SCAN": 9303,
+          "SSTF": 2133,
+          "selector": 2045,
+          "oracle": 2037
+        }
+      },
+      "after": {
+        "accuracy_equal_winners": 0.9333,
+        "seek_totals": {
+          "FCFS": 15104,
+          "SCAN": 5913,
+          "C-SCAN": 8458,
+          "SSTF": 2624,
+          "selector": 2769,
+          "oracle": 2624
+        }
+      }
+    }
+  }
+}
