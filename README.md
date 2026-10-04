@@ -49,7 +49,7 @@ The plotting script reads from `results/`, so run `python experiment.py` without
 | `results/summary.json` | Has the main results. |
 | `results/test_batches.csv`, `results/timeline_batches.csv` | Have the results for each batch. |
 | `results/*.png` | Show the comparison, shift, and confidence results. |
-| `CSE307_Disk_Scheduling_Ready.docx` | The written report with the cover page. |
+| `CSE307_Disk_Scheduling_Submission.docx` | The written report with the cover page. |
 
 ## Short summary of the results
 
